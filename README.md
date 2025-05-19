@@ -9,7 +9,10 @@ sudo docker run -d -p 8080:80 --name actividad2 --mount type=bind,source="$(pwd)
 ```
 
 ## Paso 3. Comprobación: http://localhost:8080 
+![Comprobacion Localhost](comprobacion01.png)
  
 ## Paso 4. Se pide modificar el fichero index.html desde el host.
+(Abrimos el index.html y lo modificamos)
 
-## Paso 5. Se ha producido cambios , http://localhost:8080 
+## Paso 5. Se ha producido cambios , http://localhost:8080
+![Comprobacion Cambios](comprobacion02.png)
